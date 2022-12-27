@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    
+    margin: 10px ;
+    display:flex;
+    justify-content: center;
+    color: azure;
+    text-shadow: 2px solid black;
+}
+
+.blocks{
+    
+    display:flex;
+    border: 1px solid black;
+   justify-content: center;
+   height: 700px;
+    
+}
+
+.block1{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+    
+    gap: 20px;
+    width: 400px;
+    height:400px
+
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    margin-top: 150px;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    height:400px
+    
+    
+}
+.main{
+    width: 800px;
+    height: 700px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    background-color: lightsalmon;
+   
+}
+.score{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    border:2px solid black;
+    text-shadow: 0 3px 4px  darkred;
+}
+#score1{
+    
+    padding: 0;
+   margin: 0;
+    color: darkred;
+    margin-top: 0;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    
+}
+#score2{
+    
+    color: darkred;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+    color:black;
+    font-size: larger;
+    background-color: darkred;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+    text-shadow: 0px 5px solid white;
+    margin: 10px;
+    text-shadow: 0 3px 4px  darkred;
+}
+.name{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0 3px 4px  darkred;
+}
+.reset-save{
+    color:black;
+    font-size: larger;
+    padding: 0;
+    
+    margin-top: 10px;
+}
+#rs,#sv,#rs2,#sv2{
+    background-color: chocolate;
+   
+    padding: 0;
+    margin-top: 10px;
+}
